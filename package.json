@@ -1,0 +1,13 @@
+{
+  "name": "test-supabase-notes",
+  "version": "1.0.0",
+  "description": "Vulnerable test application for SecondKey IDOR & RLS automated scanner verification",
+  "main": "src/client.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/client.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}
